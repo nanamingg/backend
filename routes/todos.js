@@ -127,8 +127,6 @@ router.delete("/:todoId", (req, res) => {
     }
   });
 
-  console.log(todos);
-
   return res.json({ message: "Deleted todo." });
 });
 
